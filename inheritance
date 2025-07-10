@@ -1,0 +1,23 @@
+package com.codeDecode.start;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog tom=new Dog();
+		tom.wagTail();
+		tom.color= "white";
+		tom.printColor();
+		//tom.barking();
+		//tom.eating();
+		
+		
+		 Dog dog = new Dog();
+		dog.eating();
+	    dog.color = "black";
+	    dog.printColor();
+	    
+	    
+	}
+
+}
